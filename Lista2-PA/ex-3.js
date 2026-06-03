@@ -1,0 +1,7 @@
+let input = require("readline-sync")
+let numero1 = input.questionInt("Digite o primeiro numero: ")
+let numero2 = input.questionInt("Digite o segundo numero: ")
+let resposta1 = (numero1 + 2)
+let resposta2 = (numero2 + 2)
+let resposta3 = (resposta1 + resposta2)
+console.log("resultado = " + resposta3)
